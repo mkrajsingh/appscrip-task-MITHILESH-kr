@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appscrip MITHILESH KUMAR</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <h1>AppScrip</h1>
+
+    <header>
+        <div class="logo">
+            <img src="12.svg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">STORIES</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <span>🔍</span>
+            <span>❤️</span>
+            <span>👤</span>
+            <span>🛒</span>
+            <span>ENG</span>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <h1>DISCOVER OUR PRODUCTS</h1>
+        <p>Welcome to our shopping app, where convenience meets style! Explore our curated collection and discover your next favorite finds with just a click.</p>
+
+        <div class="filter">
+            <div class="filter-left">
+                <span>30</span> > <a href="#" id="show-filters" class="clickable">SHOW FILTER</a>
+                <div id="filter-menu" class="filter-menu hidden">
+                    <h4>COSTOMIZE</h4>
+                    <div class="filter-option">
+                        <label for="ideal-for">IDEAL FOR</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="ideal-for-all" />
+                            <label for="ideal-for-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">OCCASION</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">WORK</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">FABRIC</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">SEGMENT</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">SUITABLE FOR</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">MATERIALS</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <div class="filter-option">
+                        <label for="occasion">PATTERN</label>
+                        <div class="sub-options hidden">
+                            <input type="checkbox" value="All" id="occasion-all" />
+                            <label for="occasion-all">All</label><br>
+                            <input type="checkbox" value="Men" />
+                            <label>Men</label><br>
+                            <input type="checkbox" value="Women" />
+                            <label>Women</label><br>
+                            <input type="checkbox" value="Baby & Kids" />
+                            <label>Baby & Kids</label>
+                        </div>
+                    </div>
+                    <!-- Add other filter categories similarly -->
+                </div>
+            </div>
+            <div class="filter-right">
+                <span id="default-filter" class="clickable">RECOMMENDED</span>
+                <div id="default-filter-menu" class="filter-menu hidden">
+                    <label for="discount">DISCOUNT FROM 10%</label><br>
+                    <label for="four-star">4 STAR +</label><br>
+                    <label for="price-high">PRICE: HIGH</label><br>
+                    <label for="price-low">PRICE: LOW</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+            <!-- Product Cards -->
+            <div class="product-card" data-category="ideal-for Men">
+                <img src="img/1.png" alt="Essence Mascara Lash Princess">
+                <h3>Essence Mascara Lash Princess</h3>
+                <p>DISCOUNT: -7.17%</p>
+                <p>PRICE: $9.99</p>
+                <p>RATING: 4.94</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/2.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/11.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/4.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/5.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/6.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/7.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/8.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="ideal-for Women">
+                <img src="img/9.png" alt="Eyeshadow Palette with Mirror">
+                <h3>Eyeshadow Palette with Mirror</h3>
+                <p>DISCOUNT: -5.5%</p>
+                <p>PRICE: $19.99</p>
+                <p>RATING: 3.28</p>
+            </div>
+
+            <div class="product-card" data-category="occasion Women">
+                <img src="img/10.png" alt="Juice">
+                <h3>Juice</h3>
+                <p>DISCOUNT: -5.45%</p>
+                <p>PRICE: $3.99</p>
+                <p>RATING: 3.41</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="subscribe">
+                <h3>BE THE FIRST TO KNOW</h3>
+                <p>Sign up to update from meta mouse</p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-links">
+                <div>
+                    <h4>metta muse</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Artisans</a></li>
+                        <li><a href="#">Boutiques</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">EU Compliance Docs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>QUICK LINK</h4>
+                    <ul>
+                        <li><a href="#">Order & Shipping</a></li>
+                        <li><a href="#">Join/Login as a Setter</a></li>
+                        <li><a href="#">Payment & Pricing</a></li>
+                        <li><a href="#">Return & Refunds</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Phone: +9527914545</p>
+                <p>Email: kashidswarup2001@gmail.com</p>
+                <p>Currency: USA</p>
+                <p>Transaction completed in Euros and a currency reference is available in hover.</p>
+            </div>
+
+            <!-- <div class="footer-social">
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div> -->
+            <div class="payment-methods">
+                <img src="google-pay.png" alt="Google Pay">
+                <img src="mastercard.png" alt="Mastercard">
+                <img src="paypal.png" alt="Paypal">
+                <img src="amex.png" alt="Amex">
+            </div>
+            
+                
+                
+            </div>
+        </div>
+        <p>copyright @metta muse all rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
